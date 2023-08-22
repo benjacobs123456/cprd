@@ -1,0 +1,168 @@
+﻿MedCodeId,OriginalReadCode,CleansedReadCode,Term
+19773013,9Na,9Na..00,Consultation
+29982014,H03,H03..00,Acute tonsillitis
+51268016,42J,42J..00,Neutrophil count
+51875014,1M10,1M10.00,Knee pain
+64168014,G2,G2...00,Hypertensive disease
+70669012,42L,42L..00,Basophil count
+99042012,G20,G20..00,Essential hypertension
+102928018,42P,42P..00,Platelet count
+112567012,42N,42N..00,Monocyte count
+119575019,42K,42K..00,Eosinophil count
+124165010,42M,42M..00,Lymphocyte count
+133205018,451F,451F.00,Glomerular filtration rate
+142934010,65E,65E..00,Influenza vaccination
+185189016,46U,46U..00,Urine culture
+197761014,C10F,C10F.00,Type 2 diabetes mellitus
+216602012,44CS,44CS.00,Serum CRP (C reactive protein) level
+250207019,133F,133F.00,Marital state unknown
+257472014,42QE,42QE.00,International normalised ratio
+258906017,44E,44E..00,Serum bilirubin level
+259037014,44IC,44IC.00,Corrected serum calcium level
+259232010,44P5,44P5.00,Serum high density lipoprotein cholesterol level
+259233017,44P6,44P6.00,Serum low density lipoprotein cholesterol level
+259250015,44PF,44PF.00,Total cholesterol:HDL (high density lipoprotein) ratio
+259518014,44Z2,44Z2.00,Bone profile
+259598013,44g1,44g1.00,Plasma fasting glucose level
+261124014,4I16,4I16.00,"Microscopy, culture and sensitivities"
+264534013,663H,663H.00,Inhaler technique - good
+265380017,68N5,68N5.00,Full consent for immunisation
+265637019,6A,6A...00,Patient review
+278130018,44M4,44M4.00,Serum albumin level
+282155011,81H,81H..00,Dressing of wound
+282653015,8B314,8B31400,Medication review
+282730013,8B3H,8B3H.00,Medication requested
+283022014,8CB,8CB..00,Had a chat to patient
+283512014,8H,8H...00,Referral for further care
+283646018,8H54,8H54.00,Orthopaedic referral
+283803018,8HE,8HE..00,Discharged from hospital
+284446019,44I5,44I5.00,Serum sodium level
+285185014,9N11,9N11.00,Seen in GP's surgery
+285194015,9N19,9N19.00,Seen in hospital casualty
+285214011,9N1K,9N1K.00,Seen in ophthalmology clinic
+285252012,9N1p,9N1p.00,Seen in orthopaedic clinic
+285327012,9N31,9N31.00,Telephone encounter
+285338012,9N4,9N4..00,Failed encounter
+285358013,9N4F,9N4F.00,Failed encounter - message left on answer machine
+301485011,H33,H33..00,Asthma
+373708010,44HB,44HB.00,Serum aspartate aminotransferase level
+375550011,44JB,44JB.00,Urea and electrolytes level
+380389013,44J3,44J3.00,Serum creatinine level
+396089010,H05z,H05z.00,Upper respiratory infection NOS
+405040010,9N1S,9N1S.00,Seen in dermatology clinic
+405043012,9N36,9N36.00,Letter from specialist
+405044018,9N42,9N42.00,Did not attend - no reason
+405410017,42ZD,42ZD.00,Large unstained cells
+409688019,44J9,44J9.00,Serum urea level
+411633013,9N36-1,9N36.11,Letter from consultant
+416139010,N142-1,N142.11,Low back pain
+451201014,66C-1,66C..11,Weight monitoring
+451780012,8H77,8H77.00,Refer to physiotherapist
+452036019,9N33-1,9N33.11,Letter encounter
+454409010,46G9,46G9.00,Urine microscopy: red cells
+457062019,67H,67H..00,Lifestyle education
+457223015,41D0,41D0.00,Blood sample taken
+457336018,442W,442W.00,Serum TSH (thyroid stimulating hormone) level
+457954013,42W4,42W4.00,HbA1c level (Diabetes Control and Complications Trial aligned)
+457958011,442V,442V.00,Serum free T4 level
+457965015,44EC,44EC.00,Serum total bilirubin level
+457982018,44G9,44G9.00,Serum GGT (gamma-glutamyl transferase) level
+458249011,44lF,44lF.00,Serum cholesterol/high density lipoprotein ratio
+458870014,9N4H,9N4H.00,DNA hospital appointment
+458905016,8B3V,8B3V.00,Medication review done
+459357017,1J4,1J4..00,Suspected UTI (urinary tract infection)
+460087014,13l4,13l4.00,Main spoken language English
+480355011,44I,44I..00,Serum electrolytes level
+494597013,46W,46W..00,Urine microalbumin level
+1212385013,93A,93A..00,Discharge summary
+1218970019,44YA,44YA.00,Haemoglobin saturation with oxygen
+1488342016,9c0C,9c0C.00,Result
+1488421017,66YJ,66YJ.00,Asthma annual review
+1488764011,44PI,44PI.00,Calculated LDL (low density lipoprotein) cholesterol level
+1495289019,44D6,44D6.00,Liver function test
+1780456010,9N3A,9N3A.00,Telephone triage encounter
+2548508016,4K55,4K55.00,Cervical cytology test
+2548858016,8BMC,8BMC.00,Prescription collected by pharmacy
+2552822014,42Z5,42Z5.00,Mean platelet volume
+2692160011,915J,915J.00,Patient mobile telephone number
+11551000000118,9D1,9D1..00,MED3 - doctor's statement
+11561000000115,9D11,9D11.00,Med3 certificate issued to patient
+14941000000113,9NC3,9NC3.00,Letter sent to patient
+17611000000112,9Z,9Z...00,Administration
+62251000000110,9b30,9b30.00,Scanned document
+62921000000111,9N39,9N39.00,Item held as scanned document
+63271000000113,9b0B,9b0B.00,Discharge summary report
+63301000000111,9b0g,9b0g.00,Referral letter
+63471000000114,9b0w,9b0w.00,OOH report
+63521000000111,9b33,9b33.00,Image (document)
+73091000006118,H05z-1,H05z.11,Upper respiratory infection
+74961000006113,46TC,46TC.00,Urine albumin:creatinine ratio
+75441000006115,46M7,46M7.00,Urine creatinine level
+87901000000115,9b04,9b04.00,Comment note
+96961000006113,44F3,44F3.00,Total alkaline phosphatase level
+98461000006116,42H,42H..00,Total white cell count
+101361000006114,442J,442J.00,Thyroid function test
+128011000000115,44G3,44G3.00,ALT/SGPT serum level
+129761000000114,44TB,44TB.00,Haemoglobin A1c level
+132851000000110,44J5,44J5.00,Renal profile
+134471000000110,44g,44g..00,Plasma glucose level
+137851000000113,8B3x,8B3x.00,Medication review with patient
+143821000006118,42R4,42R4.00,Serum ferritin level
+143841000006113,42U5,42U5.00,Serum folate level
+144011000006117,44M5,44M5.00,Serum globulin level
+144231000006118,44I9,44I9.00,Serum inorganic phosphate level
+144451000006114,44O,44O..00,Serum lipids level
+144821000006115,44I4,44I4.00,Serum potassium level
+145421000006116,44M3,44M3.00,Serum total protein
+145471000006115,44Q,44Q..00,Serum triglycerides level
+145701000006116,42T,42T..00,Serum vitamin B12 level
+150381000006115,44F,44F..00,Serum alkaline phosphatase level
+150741000006110,44I7,44I7.00,Serum bicarbonate level
+150871000006111,44I8,44I8.00,Serum calcium level
+150891000006112,44I6,44I6.00,Serum chloride level
+150921000006118,44P,44P..00,Serum cholesterol level
+158421000000116,8B3y,8B3y.00,Medication review of medical notes
+187341000000114,42Z7,42Z7.00,Red blood cell distribution width
+218381000000118,4K22,4K22.00,Cervical smear - negative
+223761000006118,44CC,44CC.00,Plasma C reactive protein
+240851000006117,8CA4,8CA4.00,Dietary advice
+240861000006115,8CA5,8CA5.00,Patient advised about exercise
+294691000000115,9bJ,9bJ..00,Transfer-degraded record entry
+298741000000112,9N3D,9N3D.00,Letter received
+306221000000119,44GB,44GB.00,Serum alanine aminotransferase level
+482291000000111,9N3G,9N3G.00,SMS text message sent to patient
+498521000006119,EMISATTACHMENT,,Attachment
+544381000006117,7E2A2,7E2A200,Sampling of cervix for Papanicolaou smear done
+619931000006119,246A,246A.00,Diastolic arterial pressure
+620861000006119,42I,42I..00,Differential white cell count
+648521000006111,42B6,42B6.00,Erythrocyte sedimentation rate
+667121000000119,9N19-1,9N19.11,Seen in accident and emergency department
+712411000006117,8B3S,8B3S.00,Medication review
+714931000006112,42A,42A..00,MCV - Mean corpuscular volume
+741011000000119,8CAw,8CAw.00,Advice about long acting reversible contraception
+787121000006116,66CB,66CB.00,Ideal body weight
+976481000006110,451E,451E.00,GFR (glomerular filtration rate) calculated by abbreviated Modification of Diet in Renal Disease Study Group calculation
+1126121000000112,38DP,38DP.00,QRISK2 cardiovascular disease 10 year risk score
+1566301000006111,EMISNQSM1,,SMS message sent to patient
+1572871000006117,EMISNQAW1,,Awaiting clinical code migration to EMIS Web
+1653351000000114,9D15,9D15.00,"eMED3 (2010) new statement issued, not fit for work"
+1660411000006112,38D4,38D4.00,AUDIT-C (Alcohol Use Disorders Identification Test - Consumption) score
+1700711000006113,42W5,42W5.00,Haemoglobin A1c level - International Federation of Clinical Chemistry and Laboratory Medicine standardised
+1712901000006111,EMISNQCL9,,Clinical document
+1726131000000119,9Ndl,9Ndl.00,Implied consent for core Summary Care Record dataset upload
+1883581000006119,38Gt0,38Gt000,QAdmissions risk of emergency hospital admission in next 12 months
+1886201000006117,9bK0,9bK0.00,Clinical letter
+1942831000006114,451N,451N.00,eGFR (estimated glomerular filtration rate) using creatinine Chronic Kidney Disease Epidemiology Collaboration equation per 1.73 square metres
+1990681000006116,EMISNQPR489,,Preferred method of contact: unknown
+2142081000000112,65ED,65ED.00,Seasonal influenza vaccination
+2335451000000113,67DJ,67DJ.00,Informing patient of named accountable general practitioner
+2344491000000115,44PL0,44PL000,Serum non high density lipoprotein cholesterol level
+2367201000000110,38Ql,38Ql.00,Frailty Index score
+2395071000000118,44IC0,44IC000,Serum adjusted calcium concentration
+2459931000000116,9NN60,9NN6000,Patient allocated named accountable general practitioner
+8085301000006112,^ESCTSM808530,,SMS (short message service) text message sent to patient
+13012481000006116,^ESCT1301248,,SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination invitation SMS (short message service) text message sent
+13483111000006116,^ESCT1348311,,SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) RNA (ribonucleic acid) detection result negative
+13483231000006116,^ESCT1348323,,Administration of first dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine
+13483251000006111,^ESCT1348325,,Administration of second dose of SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccine
+14069301000006111,^ESCT1406930,,Administration of booster dose of tetanus vaccine

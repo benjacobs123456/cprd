@@ -1,0 +1,70 @@
+﻿MedCodeId,Observations,OriginalReadCode,CleansedReadCode,Term,SnomedCTConceptId,SnomedCTDescriptionId,Release,EmisCodeCategoryId
+1008891000006114,30,ASDFGCO1,,Coshh Solvents,1.01E+15,1.01E+15,,37
+987571000006118,3,HMPNQDR6,,Drugs used within the past month - Solvents,9.88E+14,9.88E+14,,28
+969751000006111,400,EMISNQMI90,,Misuse of Solvents unspecified,9.70E+14,9.70E+14,,17
+968751000006118,500,EMISNQND11,,Substance misuse of Solvents,9.69E+14,9.69E+14,,17
+899451000006111,90,SM2-99,SM2..99,Toxic effects - solvents,7.05E+14,8.99E+14,,32
+889211000006110,100,M122-99,M122.99,Contact dermatitis : solvents,23012005,8.89E+14,,15
+512621000000115,10,1T92,1T92.00,H/O infrequent solvent misuse,2.79E+14,5.13E+14,,27
+512611000000114,6,1T91,1T91.00,H/O weekly solvent misuse,2.79E+14,5.13E+14,,27
+512601000000112,40,1T90,1T90.00,H/O daily solvent misuse,2.79E+14,5.13E+14,,27
+512171000000114,800,1T9,1T9..00,H/O solvent misuse,2.77E+14,5.12E+14,,27
+478471000000116,200,1T93,1T93.00,Previous history of solvent misuse,2.79E+14,4.78E+14,,27
+422081000006119,20,U40A,U40A.00,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, undetermined intent",241769004,361966013,,32
+421661000006113,2,U40A0,U40A000,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at home, undetermined intent",241769004,361966013,,32
+421201000006114,1,U40A5,U40A500,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at trade and service area, undetermined intent",241769004,361966013,,32
+421191000006111,3,U40A3,U40A300,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at sports and athletics area, undetermined intent",241769004,361966013,,32
+421181000006113,1,U40A1,U40A100,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence in residential institution, undetermined intent",241769004,361966013,,32
+421171000006110,1,U40A7,U40A700,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on farm, undetermined intent",241769004,361966013,,32
+421161000006115,1,U40A4,U40A400,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on street and highway, undetermined intent",241769004,361966013,,32
+421151000006117,1,U40A2,U40A200,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at school, other institution and public administrative area, undetermined intent",241769004,361966013,,32
+421141000006119,1,U40Ay,U40Ay00,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at other specified place, undetermined intent",241769004,361966013,,32
+421131000006112,1,U40A6,U40A600,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at industrial and construction area, undetermined intent",241769004,361966013,,32
+421121000006114,1,U40Az,U40Az00,"[X]Poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at unspecified place, undetermined intent",241769004,361966013,,32
+398751000006111,1,Eu187,Eu18700,[X]Mnt/bh dis vol solvents: resid & late-onset psychotic dis,91388009,151411015,,32
+398041000006111,90,Eu181,Eu18100,[X]Mental and behav dis due volatile solvents: harmful use,91388009,151411015,,32
+398031000006118,50,Eu183,Eu18300,[X]Mental and behav dis due vol solvents: withdrawal state,74934004,3533677015,,32
+398011000006112,50,Eu182,Eu18200,[X]Mental and behav dis due to vol solvents: dependence synd,91388009,151411015,,32
+398001000006114,2,Eu186,Eu18600,[X]Mental and behav dis due to use vol solvents: amnesic syn,91388009,151411015,,32
+397531000006110,20,Eu18z,Eu18z00,[X]Ment/behav dis due use vol solvents: unsp ment/behav dis,91388009,151411015,,32
+397351000006111,4,Eu18y,Eu18y00,[X]Men/behav dis due to use vol solvents: oth men/behav disd,91388009,151411015,,32
+397191000006119,6,Eu184,Eu18400,[X]Men & beh dis vol solvents: withdrawal state wth delirium,74934004,3533677015,,32
+394291000006118,100,U20A,U20A.00,[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,271982007,407014015,,32
+393441000006114,20,U20A0,U20A000,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at home",241769004,361966013,,32
+391721000006111,2,U20A5,U20A500,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at trade and service area",241769004,361966013,,32
+391711000006115,1,U20A3,U20A300,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at sports and athletics area",241769004,361966013,,32
+391701000006118,6,U20A1,U20A100,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence in residential institution",241769004,361966013,,32
+391691000006118,1,U20A7,U20A700,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on farm",241769004,361966013,,32
+391681000006116,1,U20A4,U20A400,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on street and highway",241769004,361966013,,32
+391671000006119,1,U20A2,U20A200,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at school, other institution and public administrative area",241769004,361966013,,32
+391421000006118,3,U20A6,U20A600,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at industrial and construction area",241769004,361966013,,32
+391411000006114,1,U20Ay,U20Ay00,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at other specified place",241769004,361966013,,32
+391401000006111,8,U20Az,U20Az00,"[X]Intentional self poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at unspecified place",241769004,361966013,,32
+361861000006113,50,U1AA-1,U1AA.11,[X]Accidental poisoning from glue solvent,418098005,2576865011,,32
+361171000006114,50,U1AA,U1AA.00,[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,418098005,2576865011,,32
+360751000006111,30,U1AA0,U1AA000,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at home",241769004,361966013,,32
+360091000006119,4,U1AA5,U1AA500,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at trade and service area",241769004,361966013,,32
+360081000006117,1,U1AA3,U1AA300,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at sports and athletics area",241769004,361966013,,32
+360071000006115,1,U1AA1,U1AA100,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence in residential institution",241769004,361966013,,32
+360061000006110,2,U1AA7,U1AA700,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on farm",241769004,361966013,,32
+360051000006113,1,U1AA4,U1AA400,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence on street and highway",241769004,361966013,,32
+360041000006111,3,U1AA2,U1AA200,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at school, other institution and public administrative area",241769004,361966013,,32
+359881000006114,9,U1AA6,U1AA600,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at industrial and construction area",241769004,361966013,,32
+359871000006111,1,U1AAy,U1AAy00,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, occurrence at other specified place",241769004,361966013,,32
+359861000006116,3,U1AAz,U1AAz00,"[X]Accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours, halogens, occurrence at unspecified place",241769004,361966013,,32
+16761000006114,300,SM2,SM2..00,Other solvents causing toxic effect,75478009,125363016,,32
+334743014,200,U20A-1,U20A.11,[X]Self poisoning from glue solvent,271982007,407014015,,32
+328802017,100,T92z,T92z.00,Accidental poisoning by solvent NOS,72431002,120331013,,32
+328801012,400,T924z,T924z00,Accidental poisoning by other solvents NOS,72431002,120331013,,32
+328799014,100,T924,T924.00,Accidental poisoning by other solvents,72431002,120331013,,32
+328784014,20,T920z,T920z00,Accidental poisoning by petrol solvents NOS,216671002,328779015,,32
+328779015,40,T920,T920.00,Accidental poisoning by petroleum solvents,216671002,328779015,,32
+325597010,20,SyuG1,SyuG100,Organic solvents causing toxic effect,241769004,361966013,,32
+324500010,200,SM2z,SM2z.00,Solvents causing toxic effect NOS,75478009,125363016,,32
+324499018,30,SM2yz,SM2yz00,Other solvents causing toxic effect NOS,75478009,125363016,,32
+324496013,2,SM23z,SM23z00,Chlorinated hydrocarbon solvent causing toxic effect NOS,56488003,93939013,,32
+324494011,3,SM23,SM23.00,Other chlorinated hydrocarbon solvent causing toxic effect,56488003,93939013,,32
+324492010,10,SM2y,SM2y.00,Other solvents causing toxic effect,75478009,125363016,,32
+308515010,200,M122z,M122z00,Contact dermatitis due to solvent NOS,23012005,38664014,,15
+295213015,500,Eu182-1,Eu18211,[X]Drug addiction - solvent,191853003,295213015,,32
+38664014,2000,M122,M122.00,Contact dermatitis due to solvents,23012005,38664014,,15

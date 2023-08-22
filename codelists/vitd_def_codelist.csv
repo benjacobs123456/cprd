@@ -1,0 +1,10 @@
+MedCodeId,Observations,OriginalReadCode,CleansedReadCode,Term,SnomedCTConceptId,SnomedCTDescriptionId,Release,EmisCodeCategoryId
+2284451000000113,7000,9mP,9mP..00,Vitamin D deficiency monitoring administration,8.86E+14,2.28E+15,NA,37
+2284531000000117,1000,9mP00,9mP0000,Vitamin D deficiency monitoring first letter,8.87E+14,2.28E+15,NA,37
+57937016,2000000,C28,C28..00,Vitamin D deficiency,34713006,57937016,NA,32
+2284831000000115,500,66p0,66p0.00,Vitamin D deficiency annual review,8.87E+14,2.28E+15,NA,1
+2241511000000119,300000,C2B,C2B..00,Vitamin D insufficiency,8.67E+14,2.24E+15,NA,32
+1850051000006117,70000,EMISNQAD74,NA,Advice about vitamin D supplementation,1.85E+15,1.85E+15,NA,17
+282821010,50000,8B73,8B73.00,Administration of Vitamin D supplement,444069008,2840600017,NA,32
+2236751000000118,20000,67DE,67DE.00,Provision of information about vitamin D supplementation,8.65E+14,2.24E+15,NA,17
+1773401000006119,800,EMISNQVI13,NA,Vitamin D insufficiency,1.77E+15,1.77E+15,NA,32

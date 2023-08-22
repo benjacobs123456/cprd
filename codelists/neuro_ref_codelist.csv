@@ -1,0 +1,13 @@
+MedCodeId,Observations,OriginalReadCode,CleansedReadCode,Term,SnomedCTConceptId,SnomedCTDescriptionId,Release,EmisCodeCategoryId
+283605011,2000000,8H46,8H46.00,Neurological referral,183521007,283605011,,40
+904911000006110,300000,EMISSPR400,,Neurology referral,9.05E+14,9.05E+14,,40
+451827017,100000,8H4h,8H4h.00,Referral to neurologist,308474002,451827017,,40
+284115010,80000,8HVL,8HVL.00,Private referral to neurologist,183901002,284115010,,40
+4724261000006113,30000,^ESCTRE472426,,Referral to neurology service,183521007,283604010,,40
+449233010,20000,8H4O,8H4O.00,Referral to paediatric neurologist,306263000,449233010,,40
+408441000000116,20000,8H4Y,8H4Y.00,Referral to neurology special interest general practitioner,2.49E+14,4.08E+14,,40
+283538014,6000,8H2E,8H2E.00,Neurology emergency hospital admission,183467009,3082917010,,40
+283578019,6000,8H3J,8H3J.00,Non-urgent neurology admission,183501006,283578019,,40
+904951000006111,6000,EMISSPR421,,Paediatric neurology referral,9.05E+14,9.05E+14,,40
+1775481000006110,2000,EMISNQRE184,,Referred to Neurology Service,1.78E+15,1.78E+15,,40
+283853012,1000,8HJE,8HJE.00,Neurology self-referral,183702002,283853012,,40

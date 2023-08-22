@@ -1,0 +1,13 @@
+﻿MedCodeId,Observations,OriginalReadCode,CleansedReadCode,Term,SnomedCTConceptId,SnomedCTDescriptionId,Release,EmisCodeCategoryId
+288197011,50,AyuD4,AyuD400,[X]Other infectious mononucleosis,271558008,406380019,,32
+288198018,300,AyuD5,AyuD500,"[X]Infectious mononucleosis, unspecified",271558008,406380019,,32
+404458019,1000000,43A,43A..00,Infectious mononucleosis test,9.94E+14,2.57E+15,,33
+404459010,10000,43A1,43A1.00,Blood sent - inf mononucl test,269832003,404459010,,33
+404460017,20000,43A2,43A2.00,Infectious mononucleosis test positive,269833008,2642537011,,33
+406380019,200000,A75,A75..00,Infectious mononucleosis,271558008,406380019,,32
+406382010,400000,A75-1,A75..11,Glandular fever,271558008,406382010,,32
+780751000006113,70000,43A3,43A3.00,Infectious mononucleosis test negative,269834002,2642538018,,33
+820971000006110,500,J6312,J631200,Hepatitis in infectious mononucleosis,302919001,2476427017,,32
+63775011,8000,A79y-1,A79y.11,Epstein-Barr virus disease,240530001,360296018,,32
+457637015,30000,43W2,43W2.00,Epstein-Barr virus IgM antibody level,1.01E+15,2.57E+15,,33
+1485373018,60000,43WP,43WP.00,Epstein-Barr virus viral capsid antigen IgM level,1.00E+15,2.56E+15,,33

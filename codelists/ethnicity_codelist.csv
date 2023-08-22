@@ -1,0 +1,242 @@
+MedCodeId,OriginalReadCode,CleansedReadCode,Term,SnomedCTConceptId,SnomedCTDescriptionId,EmisCodeCategoryId,ethnicity
+285954016,9S6,9S6..00,Indian,414481008,2533844017,22,Asian
+285955015,9S7,9S7..00,Pakistani,186002003,285955015,22,Asian
+285956019,9S8,9S8..00,Bangladeshi,186003008,285956019,22,Asian
+285976013,9SA7,9SA7.00,Indian sub-continent (NMO),186012005,285976013,22,Asian
+285977016,9SA8,9SA8.00,Other Asian (NMO),186013000,285977016,22,Asian
+286018012,9T1B,9T1B.00,South East Asian,186044009,286018012,22,Mixed/Other
+286020010,9T1E,9T1E.00,Asian - ethnic group,315280000,459783012,22,Asian
+405069018,9SA6,9SA6.00,E Afric Asian/Indo-Carib (NMO),270465005,405069018,22,Mixed/Other
+411583012,9SA6-1,9SA6.11,East African Asian (NMO),275596000,411583012,22,Mixed/Other
+411584018,9SA6-2,9SA6.12,Indo-Caribbean (NMO),275597009,411584018,22,Mixed/Other
+459784018,9SH,9SH..00,Other Asian ethnic group,315281001,459784018,22,Asian
+781081000006113,9T1D,9T1D.00,Indian,414481008,2533844017,22,Asian
+1572831000000110,9T9,9T9..00,Nepali,7.18E+14,1.57E+15,22,Asian
+1968131000006112,9t08,9t08.00,Asian or Asian British: Indian - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,Asian
+1968141000006119,9t09,9t09.00,Asian or Asian British: Pakistani - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,Asian
+1968151000006117,9t0A,9t0A.00,Asian or Asian British: Bangladeshi - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Asian
+1968171000006110,9t0C,9t0C.00,Asian or Asian British: any other Asian background - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Asian
+1968301000006118,9t16,9t16.00,Asian or Asian British: Indian - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Asian
+1968311000006115,9t17,9t17.00,Asian or Asian British: Pakistani - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Asian
+1968321000006111,9t18,9t18.00,Asian or Asian British: Bangladeshi - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Asian
+1968341000006116,9t1A,9t1A.00,Asian or Asian British: any other Asian background - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Asian
+1968481000006118,9t27,9t27.00,"Asian or Asian Scottish or Asian British: Pakistani, Pakistani Scottish or Pakistani British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Asian
+1968491000006115,9t28,9t28.00,"Asian or Asian Scottish or Asian British: Indian, Indian Scottish or Indian British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Asian
+1968501000006111,9t29,9t29.00,"Asian or Asian Scottish or Asian British: Bangladeshi, Bangladeshi Scottish or Bangladeshi British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Asian
+1968521000006118,9t2B,9t2B.00,Asian or Asian Scottish or Asian British: any other Asian group - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,Asian
+136081000000111,9iA4,9iA4.00,Sri Lankan - ethnic category 2001 census,8.65E+13,1.36E+14,22,Asian
+141361000000114,9i8,9i8..00,Pakistani or British Pakistani - ethnic category 2001 census,9.25E+13,1.41E+14,22,Asian
+141381000000117,9iA,9iA..00,Other Asian background - ethnic category 2001 census,9.25E+13,1.41E+14,22,Asian
+141511000000116,9iA9,9iA9.00,Mixed Asian - ethnic category 2001 census,9.26E+13,1.42E+14,22,Asian
+141521000000110,9iA1,9iA1.00,Punjabi - ethnic category 2001 census,9.26E+13,1.42E+14,22,Asian
+141531000000112,9iA2,9iA2.00,Kashmiri - ethnic category 2001 census,9.27E+13,1.42E+14,22,Mixed/Other
+141541000000115,9iA3,9iA3.00,East African Asian - ethnic category 2001 census,9.27E+13,1.42E+14,22,Asian
+141551000000117,9iA5,9iA5.00,Tamil - ethnic category 2001 census,9.27E+13,1.42E+14,22,Asian
+141561000000119,9iA8,9iA8.00,British Asian - ethnic category 2001 census,9.27E+13,1.42E+14,22,Asian
+141571000000114,9iA7,9iA7.00,Caribbean Asian - ethnic category 2001 census,9.27E+13,1.42E+14,22,Asian
+157271000000119,9i7,9i7..00,Indian or British Indian - ethnic category 2001 census,1.11E+14,1.57E+14,22,Asian
+157301000000116,9iA6,9iA6.00,Sinhalese - ethnic category 2001 census,1.11E+14,1.57E+14,22,Asian
+937541000006115,9i9,9i9..00,Bangladeshi or British Bangladeshi - ethnic category 2001 census,9.25E+13,1.41E+14,22,Asian
+937651000006117,9iAA,9iAA.00,Other Asian or Asian unspecified - ethnic category 2001 census,9.27E+13,1.42E+14,22,Asian
+30683015,9S3,9S3..00,Black African,18167009,30683015,22,Black
+285930014,9S42-1,9S42.11,Black Caribbean,185988007,285930014,22,Black
+285931013,9S4,9S4..00,"Black, other, non-mixed origin",185989004,285931013,22,Black
+285932018,9S41,9S41.00,Black British,185990008,285932018,22,Black
+285943014,9S44,9S44.00,Black - other African country,185993005,285943014,22,Black
+285948017,9S46,9S46.00,Black Indian sub-continent,185995003,285948017,22,Black
+285949013,9S47,9S47.00,Black - other Asian,185996002,285949013,22,Black
+285950013,9S48,9S48.00,Black Black - other,185989004,285931013,22,Black
+285951012,9S5,9S5..00,"Black - other, mixed",185998001,285951012,22,Black
+285971015,9SA5,9SA5.00,Other African countries (NMO),186010002,285971015,22,Black
+405064011,9S42,9S42.00,Black Caribbean/W.I./Guyana,270460000,405064011,22,Black
+405065012,9S43,9S43.00,Black N African/Arab/Iranian,270461001,405065012,22,Black
+405067016,9SA3,9SA3.00,Caribbean I./W.I./Guyana (NMO),270463003,405067016,22,Black
+411573013,9S43-1,9S43.11,Black North African,275586009,411573013,22,Black
+411574019,9S43-2,9S43.12,Black Arab,275587000,411574019,22,Black
+411575018,9S43-3,9S43.13,Black Iranian,275588005,411575018,22,Black
+411576017,9S45-1,9S45.11,Black East African Asian,275589002,411576017,22,Black
+411577014,9S45-2,9S45.12,Black Indo-Caribbean,275590006,411577014,22,Black
+411578016,9SA3-1,9SA3.11,Caribbean Island (NMO),275591005,411578016,22,Black
+411579012,9SA3-2,9SA3.12,West Indian (NMO),275592003,411579012,22,Black
+411580010,9SA3-3,9SA3.13,Guyana (NMO),275593008,411580010,22,Black
+453109012,9S42-2,9S42.12,Black West Indian,309643000,453109012,22,Black
+453110019,9S42-3,9S42.13,Black Guyana,309644006,453110019,22,Black
+459782019,9SG,9SG..00,Other black ethnic group,315279003,459782019,22,Black
+514611000006111,9S2,9S2..00,Black Caribbean,185988007,285930014,22,Black
+514651000006112,9S45,9S45.00,Black East African Asian/Indo-Caribbean,270462008,405066013,22,Black
+1968181000006113,9t0D,9t0D.00,Black or African or Caribbean or Black British: African - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Black
+1968191000006111,9t0E,9t0E.00,Black or African or Caribbean or Black British: Caribbean - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Black
+1968201000006114,9t0F,9t0F.00,Black or African or Caribbean or Black British: other Black or African or Caribbean background - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Black
+286018012,9t1B,9t1B.00,Black or African or Caribbean or Black British: African - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Black
+550541000006110,9t1C,9t1C.00,Black or African or Caribbean or Black British: Caribbean - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Black
+781081000006113,9t1D,9t1D.00,Black or African or Caribbean or Black British: other Black or African or Caribbean background - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Black
+1968531000006115,9t2C,9t2C.00,"African: African, African Scottish or African British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Black
+1968541000006113,9t2D,9t2D.00,African: any other African - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,Black
+1968551000006110,9t2E,9t2E.00,"Caribbean or Black: Caribbean, Caribbean Scottish or Caribbean British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Black
+1968561000006112,9t2F,9t2F.00,"Caribbean or Black: Black, Black Scottish or Black British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Black
+1968571000006117,9t2G,9t2G.00,Caribbean or Black: any other Black or Caribbean group - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,Black
+141391000000115,9iC,9iC..00,African - ethnic category 2001 census,9.25E+13,1.41E+14,22,Black
+141591000000113,9iD0,9iD0.00,Somali - ethnic category 2001 census,9.27E+13,1.42E+14,22,Black
+141601000000119,9iD1,9iD1.00,Nigerian - ethnic category 2001 census,9.27E+13,1.42E+14,22,Black
+154401000000118,9iB,9iB..00,Caribbean - ethnic category 2001 census,1.08E+14,1.54E+14,22,Black
+157311000000119,9iD2,9iD2.00,Black British - ethnic category 2001 census,1.11E+14,1.57E+14,22,Black
+158351000000119,9iD,9iD..00,Other Black background - ethnic category 2001 census,9.25E+13,1.58E+14,22,Black
+158371000000111,9iD3,9iD3.00,Mixed Black - ethnic category 2001 census,9.27E+13,1.58E+14,22,Black
+937731000006115,9iD4,9iD4.00,Other Black or Black unspecified - ethnic category 2001 census,9.27E+13,1.42E+14,22,Black
+460153018,9SB5,9SB5.00,Black Caribbean and White,315634007,460153018,22,Mixed/Other
+460154012,9SB6,9SB6.00,Black African and White,315635008,460154012,22,Mixed/Other
+1968091000006110,9t04,9t04.00,Mixed multiple ethnic groups: White and Black Caribbean - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,Mixed/Other
+1968101000006116,9t05,9t05.00,Mixed multiple ethnic groups: White and Black African - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,Mixed/Other
+1968111000006118,9t06,9t06.00,Mixed multiple ethnic groups: White and Asian - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,Mixed/Other
+1968121000006114,9t07,9t07.00,Mixed multiple ethnic groups: any other Mixed or multiple ethnic background - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,Mixed/Other
+1968261000006110,9t12,9t12.00,Mixed multiple ethnic groups: White and Black Caribbean - Northern Ireland ethnic category 2011 census,9.77E+14,2.49E+15,22,Mixed/Other
+1968271000006115,9t13,9t13.00,Mixed multiple ethnic groups: White and Black African - Northern Ireland ethnic category 2011 census,9.77E+14,2.49E+15,22,Mixed/Other
+1968281000006117,9t14,9t14.00,Mixed multiple ethnic groups: White and Asian - Northern Ireland ethnic category 2011 census,9.77E+14,2.49E+15,22,Mixed/Other
+1968291000006119,9t15,9t15.00,Mixed multiple ethnic groups: any other Mixed or multiple ethnic background - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+1968471000006116,9t26,9t26.00,Mixed or multiple ethnic groups: any Mixed or multiple ethnic group - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+141321000000118,9i3,9i3..00,White and Black Caribbean - ethnic category 2001 census,9.24E+13,1.41E+14,22,Mixed/Other
+141331000000116,9i4,9i4..00,White and Black African - ethnic category 2001 census,9.24E+13,1.41E+14,22,Mixed/Other
+141341000000113,9i5,9i5..00,White and Asian - ethnic category 2001 census,9.24E+13,1.41E+14,22,Mixed/Other
+141351000000111,9i6,9i6..00,Other Mixed background - ethnic category 2001 census,9.25E+13,1.41E+14,22,Mixed/Other
+141471000000113,9i60,9i60.00,Black and Asian - ethnic category 2001 census,9.26E+13,1.41E+14,22,Mixed/Other
+141481000000110,9i61,9i61.00,Black and Chinese - ethnic category 2001 census,9.26E+13,1.41E+14,22,Mixed/Other
+141491000000112,9i63,9i63.00,Chinese and White - ethnic category 2001 census,9.26E+13,1.41E+14,22,Mixed/Other
+157291000000115,9i62,9i62.00,Black and White - ethnic category 2001 census,1.11E+14,1.57E+14,22,Mixed/Other
+158361000000116,9i64,9i64.00,Asian and Chinese - ethnic category 2001 census,9.26E+13,1.58E+14,22,Mixed/Other
+937511000006119,9i65,9i65.00,Other Mixed or Mixed unspecified - ethnic category 2001 census,9.26E+13,1.42E+14,22,Mixed/Other
+56590016,9S9,9S9..00,Chinese,33897005,56590016,22,Mixed/Other
+285952017,9S51,9S51.00,Other Black - Black/White orig,185999009,285952017,22,Mixed/Other
+285953010,9S52,9S52.00,Other Black - Black/Asian orig,186000006,285953010,22,Mixed/Other
+285987017,9SAC,9SAC.00,Other European (NMO),186017004,285987017,22,Mixed/Other
+285988010,9SAD,9SAD.00,Other ethnic NEC (NMO),186005001,285958018,22,Mixed/Other
+285989019,9SB,9SB..00,"Other ethnic, mixed origin",186019001,285989019,22,Mixed/Other
+285990011,9SB1,9SB1.00,"Other ethnic, Black/White orig",186020007,285990011,22,Mixed/Other
+285991010,9SB2,9SB2.00,"Other ethnic, Asian/White orig",186021006,285991010,22,Mixed/Other
+285992015,9SB3,9SB3.00,"Other ethnic, mixed white orig",186022004,285992015,22,Mixed/Other
+285993013,9SB4,9SB4.00,"Other ethnic, other mixed orig",186023009,285993013,22,Mixed/Other
+286006015,9T1,9T1..00,New Zealand ethnic groups,186035008,286006015,22,Mixed/Other
+1968271000006115,9T13,9T13.00,New Zealand Maori,186039002,286012013,22,Mixed/Other
+1968291000006119,9T15,9T15.00,Cook Island Maori,186040000,286013015,22,Mixed/Other
+1968311000006115,9T17,9T17.00,Niuean,186041001,286014014,22,Mixed/Other
+1968321000006111,9T18,9T18.00,Tokelauan,186042008,286015010,22,Mixed/Other
+1968341000006116,9T1A,9T1A.00,Other Pacific ethnic group,372148003,1210724015,22,Mixed/Other
+285958018,9SA,9SA..00,Other ethnic non-mixed (NMO),186005001,285958018,22,Mixed/Other
+285959014,9SA1,9SA1.00,Brit. ethnic minor. spec.(NMO),186006000,285959014,22,Mixed/Other
+285960016,9SA2,9SA2.00,Brit. ethnic minor. unsp (NMO),186007009,285960016,22,Mixed/Other
+286021014,9T1Y,9T1Y.00,Other New Zealand ethnic group,186035008,286006015,22,Mixed/Other
+405068014,9SA4,9SA4.00,N African Arab/Iranian (NMO),270464009,405068014,22,Mixed/Other
+405070017,9SAA,9SAA.00,Greek/Greek Cypriot (NMO),270466006,405070017,22,Mixed/Other
+405071018,9SAB,9SAB.00,Turkish/Turkish Cypriot (NMO),270467002,405071018,22,Mixed/Other
+411581014,9SA4-1,9SA4.11,North African Arab (NMO),275594002,411581014,22,Mixed/Other
+411582019,9SA4-2,9SA4.12,Iranian (NMO),275595001,411582019,22,Mixed/Other
+411594011,9SAA-1,9SAA.11,Greek (NMO),275599007,411594011,22,Mixed/Other
+411595012,9SAA-2,9SAA.12,Greek Cypriot (NMO),275600005,411595012,22,Mixed/Other
+411596013,9SAB-1,9SAB.11,Turkish (NMO),275601009,411596013,22,Mixed/Other
+411597016,9SAB-2,9SAB.12,Turkish Cypriot (NMO),275602002,411597016,22,Mixed/Other
+456650013,9SC,9SC..00,Vietnamese,312859007,456650013,22,Mixed/Other
+459785017,9SJ,9SJ..00,Ethnic group,372148003,1210724015,22,Mixed/Other
+501416013,9T19,9T19.00,Fijian,69865008,501416013,22,Mixed/Other
+1968301000006118,9T16,9T16.00,Tongan,81560001,504723011,22,Mixed/Other
+1968281000006117,9T14,9T14.00,Samoan,86275006,507015012,22,Mixed/Other
+523591000000116,9T3,9T3..00,Yemeni,2.97E+14,5.24E+14,22,Mixed/Other
+550541000006110,9T1C,9T1C.00,Chinese,33897005,56590016,22,Mixed/Other
+1968161000006115,9t0B,9t0B.00,Asian or Asian British: Chinese - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Mixed/Other
+1968211000006112,9t0G,9t0G.00,Other ethnic group: Arab - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Mixed/Other
+1968221000006116,9t0H,9t0H.00,Other ethnic group: any other ethnic group - England and Wales ethnic category 2011 census,9.77E+14,2.49E+15,22,Mixed/Other
+501416013,9t19,9t19.00,Asian or Asian British: Chinese - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+286020010,9t1E,9t1E.00,Other ethnic group: Arab - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+1968391000006113,9t1F,9t1F.00,Other ethnic group: any other ethnic group - Northern Ireland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+1968511000006114,9t2A,9t2A.00,Asian or Asian Scottish or Asian British: Chinese - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+1968581000006119,9t2H,9t2H.00,"Other ethnic group: Arab, Arab Scottish or Arab British - Scotland ethnic category 2011 census",9.78E+14,2.49E+15,22,Mixed/Other
+1968591000006116,9t2J,9t2J.00,Other ethnic group: any other ethnic group - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,Mixed/Other
+138241000000113,9iF6,9iF6.00,Jewish - ethnic category 2001 census,8.90E+13,1.38E+14,22,Mixed/Other
+138251000000111,9iF9,9iF9.00,Arab - ethnic category 2001 census,8.90E+13,1.38E+14,22,Mixed/Other
+138261000000114,9iFD,9iFD.00,Iranian - ethnic category 2001 census,8.90E+13,1.38E+14,22,Mixed/Other
+138271000000119,9iFH,9iFH.00,South and Central American - ethnic category 2001 census,8.90E+13,1.38E+14,22,Mixed/Other
+138281000000117,9iF7,9iF7.00,Muslim - ethnic category 2001 census,8.90E+13,1.38E+14,22,Mixed/Other
+141401000000117,9iE,9iE..00,Chinese - ethnic category 2001 census,9.25E+13,1.41E+14,22,Mixed/Other
+141411000000115,9iF,9iF..00,Other - ethnic category 2001 census,9.25E+13,1.41E+14,22,Mixed/Other
+141621000000111,9iF0,9iF0.00,Vietnamese - ethnic category 2001 census,9.28E+13,1.42E+14,22,Mixed/Other
+141631000000113,9iF1,9iF1.00,Japanese - ethnic category 2001 census,9.28E+13,1.42E+14,22,Mixed/Other
+141641000000116,9iF2,9iF2.00,Filipino - ethnic category 2001 census,9.28E+13,1.42E+14,22,Mixed/Other
+141651000000118,9iF3,9iF3.00,Malaysian - ethnic category 2001 census,9.28E+13,1.42E+14,22,Mixed/Other
+142811000000112,9iFA,9iFA.00,North African - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142831000000116,9iFC,9iFC.00,Israeli - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142841000000113,9iFE,9iFE.00,Kurdish - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142851000000111,9iFF,9iFF.00,Moroccan - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142861000000114,9iFG,9iFG.00,Latin American - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142881000000117,9iF4,9iF4.00,Buddhist - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142891000000115,9iF8,9iF8.00,Sikh - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+142901000000119,9iFK,9iFK.00,Any other group - ethnic category 2001 census,9.42E+13,1.43E+14,22,Mixed/Other
+157351000000115,9iF5,9iF5.00,Hindu - ethnic category 2001 census,1.11E+14,1.57E+14,22,Mixed/Other
+937871000006114,9iFB,9iFB.00,"Middle Eastern (excluding Israeli, Iranian and Arab) - ethnic category 2001 census",9.41E+13,1.43E+14,22,Mixed/Other
+937941000006111,9iFJ,9iFJ.00,Multi-ethnic islands: Mauritian or Seychellois or Maldivian or St Helena - ethnic category 2001 census,9.41E+13,1.43E+14,22,Mixed/Other
+133078012,9T8,9T8..00,Portuguese,80208004,133078012,22,White
+285925010,9S1,9S1..00,White,185984009,285925010,22,White
+285978014,9SA9,9SA9.00,Irish (NMO),186014006,285978014,22,White
+286007012,9T11,9T11.00,New Zealand European,186036009,286007012,22,White
+286008019,9T11-1,9T11.11,Pakeha,186036009,286008019,22,White
+1968261000006110,9T12,9T12.00,Other European in New Zealand,186037000,286009010,22,White
+459726019,9S10,9S10.00,White British,315236000,459726019,22,White
+459727011,9S11,9S11.00,White Irish,315237009,459727011,22,White
+459728018,9S12,9S12.00,White - ethnic group,185984009,285926011,22,White
+459786016,9SI,9SI..00,Irish traveller,315283003,459786016,22,White
+1780407014,9S13,9S13.00,White Scottish,401213008,1780407014,22,White
+1780408016,9S14,9S14.00,Other white British ethnic group,401214002,1780408016,22,White
+850671000006119,9T2,9T2..00,Gypsies,40182006,63802019,22,White
+1158211000000111,9T4,9T4..00,Romanian,445343003,2872780011,22,White
+1158301000000115,9T5,9T5..00,Bulgarian,29343004,1.16E+15,22,White
+1160331000000119,9T6,9T6..00,Czech,286009,3314518019,22,White
+1551471000000116,9T7,9T7..00,Slovak,36329002,3314524013,22,White
+1968051000006116,9t00,9t00.00,White: English or Welsh or Scottish or Northern Irish or British - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,White
+1968071000006114,9t02,9t02.00,White: Gypsy or Irish Traveller - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,White
+1968081000006112,9t03,9t03.00,White: any other White background - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,White
+286007012,9t11,9t11.00,Irish Traveller - Northern Ireland ethnic category 2011 census,9.77E+14,2.49E+15,22,White
+1968441000006112,9t23,9t23.00,White: Gypsy or Irish Traveller - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,White
+1968461000006111,9t25,9t25.00,White: any other White ethnic group - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,White
+2484671000000118,9t01,9t01.00,White: Irish - England and Wales ethnic category 2011 census,9.77E+14,2.48E+15,22,White
+2486161000000112,9t10,9t10.00,White - Northern Ireland ethnic category 2011 census,9.77E+14,2.49E+15,22,White
+2487281000000112,9t20,9t20.00,White: Scottish - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,White
+2487321000000116,9t21,9t21.00,White: other British - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,White
+2487361000000112,9t22,9t22.00,White: Irish - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,White
+2487481000000113,9t24,9t24.00,White: Polish - Scotland ethnic category 2011 census,9.78E+14,2.49E+15,22,White
+2615361000000115,9TC4,,Slovak Roma,718961001,3314522012,22,White
+2615461000000111,9TC1,,Czech Roma,718959005,3314516015,22,White
+2615531000000117,9TC5,,Hungarian Roma,718963003,3314530013,22,White
+2615571000000115,9TC2,,Polish Roma,718964009,3314534016,22,White
+2615611000000112,9TC3,,Romanian Roma,718960000,3314520016,22,White
+2615691000000115,9TC0,,Bulgarian Roma,718962008,3314526010,22,White
+2645811000000115,9TC,,Roma ethnic group,718958002,2.68E+15,22,White
+138171000000114,9i2C,9i2C.00,Irish Traveller - ethnic category 2001 census,8.89E+13,1.38E+14,22,White
+138181000000111,9i2D,9i2D.00,Traveller - ethnic category 2001 census,8.89E+13,1.38E+14,22,White
+138191000000113,9i2E,9i2E.00,Gypsy/Romany - ethnic category 2001 census,8.89E+13,1.38E+14,22,White
+138201000000110,9i2F,9i2F.00,Polish - ethnic category 2001 census,8.89E+13,1.38E+14,22,White
+138231000000116,9i2K,9i2K.00,Albanian - ethnic category 2001 census,8.90E+13,1.38E+14,22,White
+141301000000110,9i1,9i1..00,Irish - ethnic category 2001 census,9.24E+13,1.41E+14,22,White
+141311000000112,9i2,9i2..00,Other White background - ethnic category 2001 census,9.24E+13,1.41E+14,22,White
+141431000000111,9i21,9i21.00,Scottish - ethnic category 2001 census,9.25E+13,1.41E+14,22,White
+141441000000119,9i22,9i22.00,Welsh - ethnic category 2001 census,9.26E+13,1.41E+14,22,White
+141451000000116,9i24,9i24.00,Northern Irish - ethnic category 2001 census,9.26E+13,1.41E+14,22,White
+141461000000118,9i23,9i23.00,Cornish - ethnic category 2001 census,9.26E+13,1.41E+14,22,White
+141661000000115,9i26,9i26.00,Cypriot (part not stated) - ethnic category 2001 census,9.28E+13,1.42E+14,22,White
+142691000000116,9i25,9i25.00,Ulster Scots - ethnic category 2001 census,9.39E+13,1.43E+14,22,White
+142701000000116,9i27,9i27.00,Greek - ethnic category 2001 census,9.39E+13,1.43E+14,22,White
+142711000000119,9i28,9i28.00,Greek Cypriot - ethnic category 2001 census,9.39E+13,1.43E+14,22,White
+142721000000113,9i2A,9i2A.00,Turkish Cypriot - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+142741000000118,9i2J,9i2J.00,Kosovan - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+142751000000115,9i2L,9i2L.00,Bosnian - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+142761000000117,9i2M,9i2M.00,Croatian - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+142781000000114,9i2Q,9i2Q.00,Mixed Irish and other White - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+142791000000111,9i2S,9i2S.00,Other mixed White - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+156921000000110,9i29,9i29.00,Turkish - ethnic category 2001 census,1.10E+14,1.57E+14,22,White
+157281000000117,9i20,9i20.00,English - ethnic category 2001 census,1.11E+14,1.57E+14,22,White
+157991000000110,9i2N,9i2N.00,Serbian - ethnic category 2001 census,8.90E+13,1.58E+14,22,White
+158341000000117,9i0,9i0..00,British or mixed British - ethnic category 2001 census,9.24E+13,1.58E+14,22,White
+158481000000115,9i2B,9i2B.00,Italian - ethnic category 2001 census,9.40E+13,1.58E+14,22,White
+937301000006110,9i2G,9i2G.00,Baltic States (Estonian or Latvian or Lithuanian) - ethnic category 2001 census,8.90E+13,1.38E+14,22,White
+937311000006113,9i2H,9i2H.00,Commonwealth of (Russian) Independent States - ethnic category 2001 census,8.90E+13,1.38E+14,22,White
+937371000006116,9i2P,9i2P.00,Other republics which made up the former Yugoslavia - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+937391000006115,9i2R,9i2R.00,Other White European or European unspecified or Mixed European - ethnic category 2001 census,9.40E+13,1.43E+14,22,White
+937411000006115,9i2T,9i2T.00,Other White or White unspecified - ethnic category 2001 census,9.41E+13,1.58E+14,22,White
+1063981000000117,9i00,9i00.00,White British - ethnic category 2001 census,4.94E+14,1.06E+15,22,White
+1064041000000111,9i10,9i10.00,White Irish - ethnic category 2001 census,4.94E+14,1.06E+15,22,White
