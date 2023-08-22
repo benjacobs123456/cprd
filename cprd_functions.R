@@ -452,9 +452,9 @@ make_demographics = function(
                   names_from = .data[[this_col]],
                   values_from = x) %>% 
       t()
-    
+    input_data[[response_var]] = factor(input_data[[response_var]])
     res_2 = table(input_data[[response_var]],input_data[[this_col]])
-    pval = round(chisq.test(res_2)$p.value,2)
+    pval = round(chisq.test(res_2)$p.value,5)
     
     res = res[-1,]
     res = cbind(rownames(res),res)
@@ -481,7 +481,7 @@ make_demographics = function(
       filter(.data[[response_var]] == response_levels[1]) 
     b = input_data %>% 
       filter(.data[[response_var]] == response_levels[2]) 
-    pval = round(t.test(a[[this_col]],b[[this_col]])$p.value,2)    
+    pval = round(t.test(a[[this_col]],b[[this_col]])$p.value,5)    
     res = res[-1,]
     res = c(this_col,res,pval)
     print(res)

@@ -29,25 +29,36 @@ patient = read_tsv("../../Data/Primary_care/Aurum/21_000677_Extract_Patient_001.
                    col_types="cccccccccccc") %>%
   dplyr::select(1,2,4,5,8,10,12)
 
+# add country 
+prac_imd = read_tsv("../../Data/Linked_data/Aurum/practice_imd_21_000677.txt",col_types=cols(.default="c")) %>%
+  dplyr::select(1,2)
+patient = patient %>%
+  left_join(prac_imd,by="pracid")
+patient %>%
+  dplyr::count(country) %>%
+  mutate(prop = n/sum(n))
+
 # read in codes which aren't of interest
-codes_to_exclude = read_csv("../codelists/codes_to_exclude_aurum.csv", col_types = "ccccc")
+codes_to_exclude = read_csv("../codelists/codes_to_exclude_aurum.csv", col_types = cols(.default="c"))
 
 
 # observation data 
-clinical = purrr::map(c(1:41),function(x){
-  number = str_pad(x,width=2,side="left",pad="0")
+# parallel 
+clinical = purrr::map(c(1:41),function(i){
+  number = stringr::str_pad(i,width=2,side="left",pad="0")
   # read in 
   # get rid of codes recorded prior to registration 
   # get rid of some commmon useless codes (eg 'text message sent')
-  read_tsv(paste0("../../Data/Primary_care/Aurum/21_000677_Extract_Observation_0",number,".txt"),
+  readr::read_tsv(paste0("../../Data/Primary_care/Aurum/21_000677_Extract_Observation_0",number,".txt"),
            col_types = cols_only(
              patid = col_character(),
              obsdate = col_character(),
              medcodeid = col_character(),
-             value = col_character()
+             value = col_character(),
+             numunitid = col_character()
            )
   ) %>% 
-    filter(!medcodeid %in% codes_to_exclude$MedCodeId)
+    dplyr::filter(!medcodeid %in% codes_to_exclude$MedCodeId)
   
 })
 clinical = do.call("bind_rows",clinical)
@@ -55,7 +66,7 @@ clinical = do.call("bind_rows",clinical)
 
 # read in dictionary
 dictionary = read_tsv("../../Dictionary Browsers/CPRD_CodeBrowser_202205_Aurum/CPRDAurumMedical.txt",
-                      col_types = "ccccccccc") %>%
+                      col_types = cols(.default="c")) %>%
   rename("medcodeid" = MedCodeId) %>% 
   dplyr::select(medcodeid,CleansedReadCode,Term)
 
@@ -68,7 +79,7 @@ clinical = clinical %>%
   left_join(patient,by="patid")
 
 # add in IMD (NB not available for everyone)
-imd = read_tsv("../../Data/Linked_data/Aurum/patient_2019_imd_21_000677.txt",col_types="ccc")
+imd = read_tsv("../../Data/Linked_data/Aurum/patient_2019_imd_21_000677.txt",col_types=cols(.default="c"))
 patient = patient %>% left_join(imd,by=c("patid","pracid"))
 
 # recode gender 
@@ -97,7 +108,6 @@ rm(dictionary)
 #################################
 # look at age distros           #
 #################################
-
 
 # sort out dates in patient file
 patient = patient %>%
@@ -130,7 +140,7 @@ plot_fx(do.call("grid.arrange",plots),"./figs/sf1.png")
 #################################
 
 # read in MS codelist
-codelist = read_csv("/data/Wolfson-UKBB-Dobson/CPRD/Lookups/Aurum/ms_aurum_codelist_1608.csv",col_types = "cccccccc")
+codelist = read_csv("/data/Wolfson-UKBB-Dobson/CPRD/Lookups/Aurum/ms_aurum_codelist_1608.csv",col_types = cols(.default="c"))
 
 # separate into definite & probable/possible
 definite_ms_codes = codelist %>% filter(Confidence=="Definite")
@@ -147,6 +157,7 @@ definite_code_counts = ms_code_obs %>%
   dplyr::count(definite_ms_code) %>%
   ungroup %>%
   na.omit
+
 nrow(definite_code_counts)
 
 non_definite_code_counts = ms_code_obs %>%
@@ -157,8 +168,7 @@ non_definite_code_counts = ms_code_obs %>%
 
 # 17405 with >=1 definite code 
 
-
-# exclude 
+# exclude people with a possible code
 patient = patient %>%
   mutate(MS_status = ifelse(
     patid %in% definite_code_counts$patid,"Case",
@@ -166,10 +176,38 @@ patient = patient %>%
       !(patid %in% non_definite_code_counts$patid) & !(patid %in% definite_code_counts$patid),
       "Control",NA
     ))) 
+patient %>% dplyr::count(is.na(MS_status) | MS_status != "Control")
+patient %>% dplyr::count(MS_status)
 
+## verify diagnoses (see who has >1 code)
+ms_diagnoses_verification = clinical %>%
+  filter(medcodeid %in% definite_ms_codes$MedCodeId) %>%
+  count(patid) %>%
+  rename("ms_diag_counts" = n)
+patient = patient %>%
+  left_join(ms_diagnoses_verification,by="patid")
 patient %>% 
-  filter(patid %in% non_definite_code_counts$patid & !patid %in% definite_code_counts$patid) %>%
-  dplyr::count(MS_status)
+  filter(MS_status == "Case") %>%
+  dplyr::count(ms_diag_counts>1)
+
+stats = patient %>% filter(MS_status=="Case") %>% summarise_at(vars(ms_diag_counts),.funs=c("mean","median","IQR","sd"))
+p=ggplot(patient %>% filter(MS_status=="Case"),aes(ms_diag_counts))+geom_density(fill="lightblue",alpha=0.8)+scale_x_log10()+theme_minimal()+labs(x="MS diagnostic code counts \nper individual")
+patient$n_ms_diag_codes = cut2(patient$ms_diag_counts,cuts=c(1,2,5,10))
+levels(patient$n_ms_diag_codes) = c("1","2-5","6-10",">10")
+
+p1=ggplot(patient %>% filter(MS_status=="Case"),aes(n_ms_diag_codes))+
+  geom_bar(fill="lightblue",alpha=0.8,color="black")+
+  theme_minimal()+
+  labs(x="MS diagnostic code counts \nper individual")
+
+plot_fx(p1,width=3,height=3,"./figs/ms_diag_counts.png")
+
+# exclude people with ONLY 1 definite code
+only_one_ms_code = definite_code_counts %>%
+  filter(n==1)
+patient = patient %>% 
+  filter(!patid %in% only_one_ms_code$patid)
+
 get_prop(patient,x = "MS_status")
 
 # filter 
@@ -181,6 +219,7 @@ get_prop(patient,x = "MS_status")
 # filter clinical table to included participants
 clinical = clinical %>%
   filter(patid %in% patient$patid)
+
 
 # derive first recorded MS code date
 ms_first_report = clinical %>%
@@ -214,10 +253,6 @@ missing_date_dx = patient %>% filter(MS_status=="Case" & is.na(ms_code_date))
 clinical %>%  filter(medcodeid %in% codelist$MedCodeId) %>%
   filter(patid %in% missing_date_dx$patid)
 
-## there are five people with MS codes but missing dates - exclude 
-patient = patient %>% 
-  filter(!(MS_status=="Case" & is.na(ms_code_date)))
-
 ## age at diagnosis
 patient = patient %>%
   mutate(age_at_dx = delta_dates(ms_code_date - rough_dob))
@@ -250,6 +285,15 @@ patient = patient %>%
   mutate(index_age = ifelse(MS_status=="Case",age_at_dx,age_at_pseudodx)) %>%
   mutate(years_data_before_index = index_age - age_at_registration) %>%
   mutate(years_data_after_index = age_at_deregistration - index_age) 
+
+# get index date for cases and controls
+patient = patient %>%
+  mutate(index_code_date_all = ifelse(
+    MS_status=="Case",
+    as.character(ms_code_date),
+    as.character(index_code_date)
+  )) %>%
+  mutate(index_code_date_all = as.Date(index_code_date_all,format="%Y-%m-%d"))
 
 # remove controls without 5y antecedent data 
 hist(patient$years_data_before_index)
@@ -285,37 +329,16 @@ plot_fx(p,"./figs/age_ms_by_sex.png", width=4,height=4)
 # filter observation dataset
 clinical =clinical %>% filter(patid %in% patient$patid)
 
-## verify diagnoses (see who has >1 code)
-ms_diagnoses_verification = clinical %>%
-  filter(medcodeid %in% definite_ms_codes$MedCodeId) %>%
-  count(patid) %>%
-  rename("ms_diag_counts" = n)
+# filter out people whose index date predated McDondald criteria (01-01-2001)
 patient = patient %>%
-  left_join(ms_diagnoses_verification,by="patid")
+  mutate(pre_mcdonald = ifelse(
+    index_code_date_all >= as.Date("2001-01-01",format="%Y-%m-%d"),
+    "post-McDonald",
+    "pre-McDonald")
+  )
+get_prop("pre_mcdonald",patient %>% group_by(MS_status))
+patient = patient %>% filter(pre_mcdonald == "post-McDonald")
 
-patient %>% filter(MS_status=="Case") %>% count(ms_diag_counts>1) %>% mutate(n/sum(n)*100)
-
-## repeat with other codes 
-ms_diagnoses_verification_probable = clinical %>%
-  filter(medcodeid %in% codelist$MedCodeId) %>%
-  count(patid) %>%
-  rename("ms_diag_counts_any_ms_code" = n)
-patient = patient %>%
-  left_join(ms_diagnoses_verification_probable,by="patid")
-
-patient %>% filter(MS_status=="Case") %>% count(ms_diag_counts_any_ms_code>1) %>% mutate(n/sum(n)*100)
-
-stats = patient %>% filter(MS_status=="Case") %>% summarise_at(vars(ms_diag_counts),.funs=c("mean","median","IQR","sd"))
-p=ggplot(patient %>% filter(MS_status=="Case"),aes(ms_diag_counts))+geom_density(fill="lightblue",alpha=0.8)+scale_x_log10()+theme_minimal()+labs(x="MS diagnostic code counts \nper individual")
-patient$n_ms_diag_codes = cut2(patient$ms_diag_counts,cuts=c(1,2,5,10))
-levels(patient$n_ms_diag_codes) = c("1","2-5","6-10",">10")
-
-p1=ggplot(patient %>% filter(MS_status=="Case"),aes(n_ms_diag_codes))+
-  geom_bar(fill="lightblue",alpha=0.8,color="black")+
-  theme_minimal()+
-  labs(x="MS diagnostic code counts \nper individual")
-
-plot_fx(p1,width=3,height=3,"./figs/ms_diag_counts.png")
 
 # HES validation of MS diagnosis 
 
@@ -469,6 +492,8 @@ patient = patient %>%
 
 get_prop(x = "ms_code_after_neuro_ref", dat = patient %>% filter(MS_status=="Case" & !is.na(ms_code_after_neuro_ref)))
 get_prop(x = "MS_status", dat = patient)
+
+get_prop(x = "country", dat = patient %>% group_by(MS_status))
 
 #################################
 # define ethnicity              #
@@ -786,8 +811,8 @@ earliest_bmi = combo_bmi %>%
 
 
 get_prop(dat = earliest_bmi %>% ungroup %>%
-           mutate("bmi_before_30" = ifelse(age_at_bmi<30,"yes","no")),
-         x = "bmi_before_30") 
+           mutate("bmi_before_25" = ifelse(age_at_bmi<25,"yes","no")),
+         x = "bmi_before_25") 
 
 # combine with main dataset 
 patient = patient %>%
@@ -818,9 +843,15 @@ patient = patient %>%
 get_prop(dat = patient,x="bmi_before_index")
 make_hist("bmi_to_index")
 summary(patient$age_at_bmi)
-patient %>% filter(bmi_before_index=="yes") %>%
+patient %>% filter(!is.na(bmi)) %>%
   summarise_at(vars(bmi_to_index, age_at_bmi),.funs = c("median","IQR"))
 
+# set as NA any BMI reading after the age of 25
+patient = patient %>%
+  mutate(bmi = 
+           ifelse(age_at_bmi > 25,
+                  NA,
+                  bmi))
 # make BMI categories
 patient$bmi_category = cut2(patient$bmi,
                             cuts = c(18.5,25,30,40))
@@ -840,7 +871,7 @@ patient = patient %>% mutate(
   bmi_z = (bmi - mean(bmi,na.rm=T)) / sd(bmi,na.rm = T))
 
 # look at % in each category
-get_prop(dat = patient %>% filter(!is.na(bmi_category)), x= "bmi_category")
+get_prop(dat = patient %>% filter(!is.na(bmi_category)), x= "bmi_category_simple")
 
 # make basic plots
 p=make_grouped_hist(x="bmi", group="gender")+ggtitle("A")
@@ -1041,7 +1072,7 @@ plot_fx(p,filename = "./figs/im_age.png",width=3,height=3)
 
 # read in codelist 
 vitd_def_codes = read_csv("../codelists/vitd_def_codelist.csv",
-                          col_types = "ccccccccc")
+                          col_types = cols(.default = "c"))
 
 # vitd  data 
 vd_df = clinical %>%
@@ -1069,24 +1100,28 @@ get_prop("vd_def_status",patient)
 vd_test_codes = c("457822017",
                   "145751000006117",
                   "457821012")
-vitd_tests = clinical %>% 
+
+# get nM tests
+vitd_tests = clinical %>%
   filter(medcodeid %in% vd_test_codes) %>%
   filter(!is.na(value)) %>%
+  filter(numunitid=="235") %>%
   dplyr::select(patid,obsdate,value)
-
+colnames(vitd_tests)[c(2:3)] = paste0("vitd_",colnames(vitd_tests)[c(2:3)])
 
 vd_test_validation = patient %>%
+  filter(vd_def_status == "vd_def") %>%
   left_join(vitd_tests,by="patid") %>% 
-  filter(!is.na(value)) %>%
   filter(!is.na(vd_def_dx_date)) %>%
-  filter(!is.na(obsdate)) %>%
-  mutate(vd_test_date = datify(obsdate)) %>%
+  filter(!is.na(vitd_obsdate)) %>%
+  mutate(vd_test_date = datify(vitd_obsdate)) %>%
   mutate(vd_test_to_def_dx = abs(delta_dates((vd_test_date - vd_def_dx_date )))) %>% 
-  filter(vd_test_to_def_dx<1/12)
+  filter(vd_test_date < vd_def_dx_date) %>%
+  filter(vd_test_to_def_dx<6/12)
 
 p=ggplot(
-  vd_test_validation %>% filter(vd_def_status=="vd_def"),
-  aes(as.numeric(value)))+
+  vd_test_validation,
+  aes(as.numeric(vitd_value)))+
   geom_density(fill="lightblue",alpha=0.5)+
   geom_vline(xintercept = 50)+
   scale_x_log10()+
@@ -1095,10 +1130,18 @@ p=ggplot(
 
 plot_fx(p,filename="./figs/vd_validation.png",width=3,height=3)
 
+
+
 vd_test_validation %>% 
-  group_by(vd_def_status) %>%
-  mutate(value = as.numeric(value)) %>% 
-  summarise_at(vars(value),.funs = c("median","IQR")) 
+  mutate(vitd_value = as.numeric(vitd_value)) %>% 
+  summarise_at(vars(vitd_value),.funs = c("median","IQR","range")) 
+
+vd_test_validation %>% 
+  group_by(vd_def_status) %>% 
+  mutate(vitd_value = as.numeric(vitd_value)) %>% 
+  mutate(def = ifelse(vitd_value < 50,"deficient","replete")) %>%
+  dplyr::count(def) %>%
+  mutate(prop = n/sum(n))
 
 #################################
 # 5. Alcohol 
